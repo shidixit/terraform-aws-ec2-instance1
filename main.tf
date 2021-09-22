@@ -16,6 +16,7 @@ resource "aws_instance" "app_server" {
    volume_size = var.web_root_volume_size
   }
   
+  
   tags = {
     Name = "ExampleAppServerInstance"
   }
